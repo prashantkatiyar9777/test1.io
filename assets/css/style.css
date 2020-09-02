@@ -1342,8 +1342,9 @@ section {
 }
 .section-title h1{
   /*color:#b7b9a4*/
-  color:black;
+  color:grey;
   font-weight: bolder;
+  
 }
 /*--------------------------------------------------------------
 # Hero Section --Header--
@@ -1353,7 +1354,7 @@ section {
   height:80vh;
   background-size: cover;
   position: relative;
-  background-image:url('../../img/counselling/hero-bg.jpg');
+ background-image:url('../../img/counselling/hero-bg.jpg');
 }
 
 #hero:before {
@@ -1378,11 +1379,12 @@ section {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: lato;
 }
 
 #hero h1 span {
   color: #ffc451;
+  text-shadow: 2px 2px 5px black;
 }
 
 #hero h2 {
