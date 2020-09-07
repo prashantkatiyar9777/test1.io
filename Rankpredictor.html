@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<!-- All credit goes to Reha IIIT Dharwad 2019 Batch -->
+	<title>Rank Predictor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="utf-8" />
-	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<!--===============================================================================================-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166050406-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
 
-		gtag("config", "UA-166050406-1");
-	</script>
 
 	<!-- Title of your page: add the name of your IIIT-->
 	<title>Rank Predictor | IIITians Network</title>
@@ -40,7 +34,17 @@
 	<link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
 	<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
 	<link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->	
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->	
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+		
 	<!-- Animation for text -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton" />
@@ -64,13 +68,29 @@
 	<!--================================== STUDENT's LIFE CSS FILES =======================================================-->
 	<link rel="stylesheet" type="text/css" href="assets/css/studentsLife.css" />
 	<!--================================== STUDENT's LIFE CSS FILE END =======================================================-->
-
-	<!--==================================Counter Up files ====================-->
+	<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+<!--==================================Counter Up files ====================-->
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"
 		integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+	
+			gtag("config", "UA-166050406-1");
+		</script>
 	<!--==================================Counter Up files over ==============-->
 	<!--================= Loader Part start ===============-->
 	<style>
@@ -116,7 +136,7 @@
 			/* The typewriter cursor effect */
 			@keyframes blink-caret {
 			from, to { border-color: transparent }
-			50% { border-color: orange }
+			50% { border-color: blue }
 			}
 
 	</style>
@@ -126,13 +146,11 @@
             document.getElementById('spanResult').textContent = result;   
         }
     </script>
-
-	<!-- =================== Loader part ended=================== -->
 </head>
-
 <body>
-	<!-- ======= Header ======= -->
-	<header id="header" class="fixed-top">
+
+		<!-- ======= Header ======= -->
+	<header id="header" class="fixed-top" >
 		<div class="container-fluid d-flex">
 			<div class="logo mr-auto">
 				<a href="index.html"><img src="img/logo/iiitian.png" alt="" class="img-fluid" /></a>
@@ -198,38 +216,26 @@
 		</div>
 	</header>
 	<!-- End Header -->
-
 	<main id="main">
-		 <!-- ======= Hero Section ======= -->
-		 <section id="hero" class="d-flex align-items-center justify-content-center">
-			<div class="container" data-aos="fade-up">
-			
-			  <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-				<div class="col-xl-6 col-lg-8">
-				  <h1><span><b>RANK PREDICTOR<br/><br/></b></span></h1>				  
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-form-title" style="background-image:url('img/bg-01.jpg');">
+					<span class="login100-form-title-1">
+						<div class="typewriter">
+							<h1>Rank Predictor</h1>     
+						</div>
+					</span>
 				</div>
-				<div class="typewriter">
-					<h1>WE  PREDICT  YOUR RANKS : ) </h1>     
-					</div>
-			  </div>
-			</br>
-		</br>
-		</div>
-		</section><!-- End Hero -->	
-		<!--========FORM============-->
-		<section id="why-us" class="why-us section-bg">
-			<div class="container">
-				<div class="section-title" data-aos="fade-up">
-					<h1>Rank Predictor</h1>
-					<hr data-aos="fade-up"style="height:2px;border-width:3;color:blue;background-color:blue; width:20%;text-align:center;margin-left:10">
-				</br></br>
-				  </div>
-				  <div class="form-row">
-					<div class="col" data-aos="fade-up">
+				<form>
+				<div  class="card container justify-content-center" >
+					<div    class=" col-xs-8 center-block">
+					<br>
 					  <input type="number" class="form-control form-control-lg" placeholder="Enter your Percentile" id="textone">
+					<br>
 					</div>
-					<div class="col" data-aos="fade-up">
-					  <select required class="form-control" id="textTWO">
+					<div  class=" col-xs-8 center-block">
+					  <select required class="form-control" id="textTWO" >
 						  <option value="" disabled selected hidden>Choose your Category</option>
 						  <option>Gen</option>
 						  <option>Gen-Female</option>
@@ -239,25 +245,26 @@
 						  <option>ST</option>
 						  <option>ST-Female</option>
 					  </select>
+					  <br>
 					</div>
-				  </div>
-			  <BR/>
-		  <br/>
-		  <div style="text-align: center; margin:0 auto;">
-				  <button type="submit" class="btn btn-primary" onclick="testVariable()" data-aos="fade-up">Submit</button>
-		  </div>  	
-		  <br/>
-		  <br/>  
-		  <div style="text-align: center; margin:0 auto;" data-aos="fade-up" >
-		  <span   id="spanResult">
-		  </span>
-		</div>
-		  </form>
+				  <br/>
+				  <div class="center-block">
+						  <button type="submit" class="btn btn-primary" onclick="testVariable()" >Submit</button>
+				  </div>  	
+				  <br/>  
+				  <div class="center-block" >
+				  <span   id="spanResult">
+				  </span>
+				  <br>
+				  <br>
+				</div>
 			</div>
-		  </section>
+				  </form>
+		
+			</div>
+		</div>
+	</div>
 	</main>
-	<!-- End #main -->
-
 	<!-- ======= Footer ======= -->
 
 	<!-- No need to change anything in footer area -->
@@ -405,6 +412,23 @@
 
 	<!-- Custom JS files -->
 	<script src="assets/js/custom.js"></script>
-</body>
 
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
 </html>
