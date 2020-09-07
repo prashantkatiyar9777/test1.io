@@ -1936,7 +1936,9 @@ body, html {
   overflow: hidden;
   position: relative;
 }
-
+.rank-form {
+  height: 300px;
+}
 /*==================================================================
 [ Title form ]*/
 .login100-form-title {
